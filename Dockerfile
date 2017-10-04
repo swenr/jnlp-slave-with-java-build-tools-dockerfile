@@ -1,8 +1,8 @@
-FROM cloudbees/java-build-tools
+FROM cloudbees/java-build-tools:2.1.0
 
 USER root
 
-ARG JENKINS_REMOTING_VERSION=3.5
+ARG JENKINS_REMOTING_VERSION=3.12
 
 # See https://github.com/jenkinsci/docker-slave/blob/2.62/Dockerfile#L32
 RUN curl --create-dirs -sSLo /usr/share/jenkins/slave.jar https://repo.jenkins-ci.org/public/org/jenkins-ci/main/remoting/$JENKINS_REMOTING_VERSION/remoting-$JENKINS_REMOTING_VERSION.jar \
