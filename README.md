@@ -7,6 +7,7 @@ See [README](https://hub.docker.com/r/cloudbees/java-build-tools/) for details o
 # Supported tags and respective `Dockerfile` links
 
 -   [`latest` (*latest/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/master/Dockerfile)
+-   [`2.2.0` (*2.2.0/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/2.2.0/Dockerfile)
 -   [`2.1.0` (*2.1.0/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/2.1.0/Dockerfile)
 -   [`2.0.1` (*2.0.1/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/2.0.1/Dockerfile)
 -   [`2.0.0` (*2.0.0/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/2.0.0/Dockerfile)
