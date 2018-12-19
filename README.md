@@ -7,6 +7,7 @@ See [README](https://hub.docker.com/r/cloudbees/java-build-tools/) for details o
 # Supported tags and respective `Dockerfile` links
 
 -   [`latest` (*latest/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/master/Dockerfile)
+-   [`2.5.0` (*2.5.0/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/2.5.0/Dockerfile)
 -   [`2.4.0` (*2.4.0/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/2.4.0/Dockerfile)
 -   [`2.3.0` (*2.3.0/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/2.3.0/Dockerfile)
 -   [`2.2.0` (*2.2.0/Dockerfile*)](https://github.com/cloudbees/jnlp-slave-with-java-build-tools-dockerfile/blob/2.2.0/Dockerfile)
@@ -85,33 +86,60 @@ optional environment variables:
 # Docker image details
 
 # Version Latest
-
 -   OS: Ubuntu 16.04
 -   Common tools: openssh-client, unzip, wget, curl, git, jq, rsync
 -   Ant 1.10.5
--   AWS CLI: aws-cli/1.16.27
--   Azure CLI: 2.0.46
+-   AWS CLI: aws-cli/1.16.77
+-   Azure CLI: 2.0.52
 -   Bower: 1.8.4
--   Cloud Foundry CLI (latest) at `/usr/local/bin/cf`: 6.39.1
--   Firefox at `/usr/bin/firefox`: 60.2.2esr
+-   Cloud Foundry CLI (latest) at `/usr/local/bin/cf`: 6.41
+-   Firefox at `/usr/bin/firefox`: 60.4.0esr
 -   Firefox Geckodriver at `/usr/bin/geckodriver`: v0.23.0
 -   gcc (latest): 5.4.0
 -   Grunt CLI: 1.3.1
 -   Gulp: 4.0.0
--   Java: OpenJDK 8 (latest): 1.8.0_181
+-   Java: OpenJDK 8 (latest): 1.8.0_191
 -   JMeter (5.0) located in `/opt/jmeter/`
--   Kubernetes CLI at `/usr/local/bin/kubectl`: 1.12.0
+-   Kubernetes CLI at `/usr/local/bin/kubectl`: 1.13.0
 -   Make (latest): 4.1
--   Maven located in `/usr/share/maven/`: 3.5.4
--   MySQL Client: 5.7.23
+-   Maven located in `/usr/share/maven/`: 3.6.0
+-   MySQL Client: Ver 14.14 Distrib 5.7.24
 -   Node.js at `/usr/bin/nodejs`: 10.11.0
--   Npm at `/usr/bin/npm`: 5.6.0
--   Open Shift V3 CLI at `/usr/local/bin/oc`: 3.10.0
+-   Npm at `/usr/bin/npm`: 6.4.1
+-   Open Shift V3 CLI at `/usr/local/bin/oc`: 3.11.0
 -   Python/2.7.12
--   Selenium at `/opt/selenium/selenium-server-standalone.jar`: 3.14.0
+-   Selenium at `/opt/selenium/selenium-server-standalone.jar`: 3.141.59
 -   XVFB: 2:1.18.4
 
--   Jenkins slave.jar (aka remoting.jar) at `/usr/share/jenkins/slave.jar`: 3.27
+-   Jenkins slave.jar (aka remoting.jar) at `/usr/share/jenkins/slave.jar`: 3.28
+
+# Version 2.5.0
+-   OS: Ubuntu 16.04
+-   Common tools: openssh-client, unzip, wget, curl, git, jq, rsync
+-   Ant 1.10.5
+-   AWS CLI: aws-cli/1.16.77
+-   Azure CLI: 2.0.52
+-   Bower: 1.8.4
+-   Cloud Foundry CLI (latest) at `/usr/local/bin/cf`: 6.41
+-   Firefox at `/usr/bin/firefox`: 60.4.0esr
+-   Firefox Geckodriver at `/usr/bin/geckodriver`: v0.23.0
+-   gcc (latest): 5.4.0
+-   Grunt CLI: 1.3.1
+-   Gulp: 4.0.0
+-   Java: OpenJDK 8 (latest): 1.8.0_191
+-   JMeter (5.0) located in `/opt/jmeter/`
+-   Kubernetes CLI at `/usr/local/bin/kubectl`: 1.13.0
+-   Make (latest): 4.1
+-   Maven located in `/usr/share/maven/`: 3.6.0
+-   MySQL Client: Ver 14.14 Distrib 5.7.24
+-   Node.js at `/usr/bin/nodejs`: 10.11.0
+-   Npm at `/usr/bin/npm`: 6.4.1
+-   Open Shift V3 CLI at `/usr/local/bin/oc`: 3.11.0
+-   Python/2.7.12
+-   Selenium at `/opt/selenium/selenium-server-standalone.jar`: 3.141.59
+-   XVFB: 2:1.18.4
+
+-   Jenkins slave.jar (aka remoting.jar) at `/usr/share/jenkins/slave.jar`: 3.28
 
 # Version 2.4.0
 
