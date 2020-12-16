@@ -16,4 +16,6 @@ RUN chmod 644 /usr/share/jenkins/agent.jar \
 
 USER ${user}
 
+WORKDIR /home/jenkins
+
 ENTRYPOINT ["jenkins-agent"]
