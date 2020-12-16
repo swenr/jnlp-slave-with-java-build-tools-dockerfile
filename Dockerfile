@@ -15,5 +15,6 @@ RUN chmod 644 /usr/share/jenkins/agent.jar \
       && ln -sf /usr/share/jenkins/agent.jar /usr/share/jenkins/slave.jar
 
 USER ${user}
+WORKDIR /home/jenkins
 
 ENTRYPOINT ["jenkins-agent"]
